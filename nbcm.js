@@ -120,7 +120,7 @@ function nbcmShowbox(e) {
         if ((windowWidth - nbcmboxpos.x) < menuWidth) {
             nbcmboxmenu.style.left = windowWidth - menuWidth + (nbcmboxpos.width * -0.05) + "px";
         } else {
-            nbcmboxmenu.style.left = nbcmboxpos.x + (nbcmboxpos.width * -0.05) + "px";
+            nbcmboxmenu.style.left = nbcmboxpos.x + (nbcmboxpos.width * -0.95) + "px";
         }
 
         if ((windowHeight - nbcmboxpos.y) < menuHeight) {
